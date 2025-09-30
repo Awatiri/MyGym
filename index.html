@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rockwall, TX gym offering personal training, group classes, and modern fitness equipment for young adults and professionals." />
+  <title>Rockwall Strength Gym | Fitness • Wellness • Community</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #1a1a1a; } /* Dark grey */
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 bg-[#1a1a1a] shadow-md z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-green-500">Rockwall Strength Gym</h1>
+      <nav class="hidden md:flex gap-6 font-medium">
+        <a href="#services" class="hover:text-green-400">Services</a>
+        <a href="#about" class="hover:text-green-400">About</a>
+        <a href="#contact" class="hover:text-green-400">Contact</a>
+      </nav>
+      <a href="#contact" class="ml-4 px-4 py-2 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-600">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-[#1a1a1a]">
+    <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-green-400">Transform Your Fitness in Rockwall</h2>
+      <p class="text-lg text-gray-300 mb-6">Your local gym with expert trainers, energizing group classes, and a supportive community for young adults and professionals.</p>
+      <a href="#contact" class="px-6 py-3 bg-green-500 text-white rounded-xl text-lg font-semibold hover:bg-green-600">Contact Us Today</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=80" alt="Gym Training" class="w-full max-h-[500px] object-cover opacity-80">
+  </section>
+
+<!-- Services -->
+<section id="services" class="max-w-6xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold text-center mb-10 text-green-400">Our Services</h2>
+  <div class="grid gap-10 md:grid-cols-3">
+
+    <!-- Personal Training -->
+    <div class="bg-[#2a2a2a] rounded-2xl overflow-hidden shadow hover:shadow-lg hover:shadow-green-500/30 transition">
+	  <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=600&q=80" alt="Group Fitness Classes Rockwall TX" class="w-full h-48 object-cover">
+      <div class="p-6 text-center">
+        <h3 class="text-xl font-semibold mb-2">Personal Training</h3>
+        <p class="text-gray-300">Work with certified trainers who create custom workout plans for strength, endurance, and overall wellness.</p>
+      </div>
+    </div>
+
+    <!-- Group Fitness Classes -->
+    <div class="bg-[#2a2a2a] rounded-2xl overflow-hidden shadow hover:shadow-lg hover:shadow-green-500/30 transition">
+	  <img src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Modern Gym Equipment Rockwall TX" class="w-full h-48 object-cover">
+      <div class="p-6 text-center">
+        <h3 class="text-xl font-semibold mb-2">Group Fitness Classes</h3>
+        <p class="text-gray-300">From high-intensity training to calming yoga, join fun and motivating group sessions for every level.</p>
+      </div>
+    </div>
+
+    <!-- Modern Gym Equipment -->
+    <div class="bg-[#2a2a2a] rounded-2xl overflow-hidden shadow hover:shadow-lg hover:shadow-green-500/30 transition">
+	  <img src="https://images.unsplash.com/photo-1676109829011-a9f0f3e40f00?auto=format&fit=crop&w=600&q=80" alt="Personal Training in Rockwall TX" class="w-full h-48 object-cover">
+      <div class="p-6 text-center">
+        <h3 class="text-xl font-semibold mb-2">Modern Gym Equipment</h3>
+        <p class="text-gray-300">Train with state-of-the-art cardio, strength, and conditioning equipment in a clean, supportive environment.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- About Us -->
+  <section id="about" class="bg-[#222] py-16">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6 text-green-400">About Rockwall Strength Gym</h2>
+      <p class="text-gray-300 max-w-3xl mx-auto">
+        Rockwall Strength Gym was built on a simple belief: fitness should be motivating, approachable, and empowering. 
+        We’re proud to serve Rockwall’s young adults and professionals with premium facilities, friendly staff, 
+        and programs designed to help you stay consistent and confident on your fitness journey.  
+        Whether you’re training for performance or just starting out, we welcome you to our community.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-8 text-green-400">Contact Us</h2>
+    <form action="#" method="POST" class="bg-[#2a2a2a] rounded-2xl p-8 space-y-6 shadow-lg shadow-green-500/20">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-200">Full Name</label>
+        <input type="text" id="name" name="name" required class="mt-2 block w-full rounded-lg border-gray-600 bg-[#1a1a1a] text-white p-3 focus:ring-green-500 focus:border-green-500" />
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-200">Email Address</label>
+        <input type="email" id="email" name="email" required class="mt-2 block w-full rounded-lg border-gray-600 bg-[#1a1a1a] text-white p-3 focus:ring-green-500 focus:border-green-500" />
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-200">Message</label>
+        <textarea id="message" name="message" rows="4" required class="mt-2 block w-full rounded-lg border-gray-600 bg-[#1a1a1a] text-white p-3 focus:ring-green-500 focus:border-green-500"></textarea>
+      </div>
+      <button type="submit" class="w-full py-3 px-6 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-600">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#111] text-gray-400 text-center py-6">
+    <p>&copy; 2025 Rockwall Strength Gym. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
